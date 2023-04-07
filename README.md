@@ -1,7 +1,7 @@
 # Berkeley's Pacman project
 This is an assignment given in the Open University of Israel's course: **Introduction to Artificial Intelligence**, and is based on Berkeley's Pacman project, written by **John DeNero**, **Dan Klein** and **Pieter Abbeel**.
 
-All of the question parts has been filled and ready for use by pasting the code into the terminal, you can find the added code in `search.py` and `searchAgent.py`.
+All of the question parts has been filled and ready for use by pasting the relevant code for each section into the command line, you can find the added code in `search.py` and `searchAgent.py`.
 
 ## Introduction
 In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. You will build general search algorithms and apply them to Pacman scenarios.
