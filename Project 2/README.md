@@ -1,6 +1,6 @@
-## Project 2: Multi-Agent Search
+# Project 2: Multi-Agent Search
 
-### Question 1: Reflex Agent
+## Question 1: Reflex Agent
 Improve the _ReflexAgent_ in `multiAgents.py` to play respectively.
 The provided reflex agent code provides some helpful examples of methods that query the _GameState_ for information.
 A capable reflex agent will have to consider both food locations and ghost locations to perform well.
@@ -19,7 +19,7 @@ It will likely often die with 2 ghosts on the default board, unless your evaluat
 Options: Default ghosts are random; you can also play for fun with slightly smarter directional ghosts using `-g DirectionslGhost`.
 You can also play multiple games in a row with `-n`. 
 
-### Question 2: Minimax
+## Question 2: Minimax
 Now you will write an adversarial search agent in the provided _MinimaxAgent_ class stub in `multiAgents.py`.
 Your minimax agent should work with any number of ghosts, so you'll have to write an algorithm that is slightly more general
 than what you've previously seen in lecture.
@@ -42,7 +42,7 @@ He might even thrash around right next to a dot without eating it because he doe
 * When Pacman  believes that his death is unavoidable, he will try to end the game as soon as possible because of the constant penalty for living. 
 Sometimes, this is the wrong thing to do with random ghosts, but minimax agents always assume the worst.
 
-### Question 3: Alpha-Beta Pruning
+## Question 3: Alpha-Beta Pruning
 Make a new agent that uses alpha-beta pruning to more efficiently explore the minimax tree, in _AlphaBetaAgent_. 
 Again, your algorithm will be slightly more general than the pseudocode from lecture, so part of the challenge is to extend the alpha-beta pruning 
 logic appropriately to multiple minimizer agents.
@@ -55,7 +55,7 @@ python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic
 The _AlphaBetaAgent_ minimax values should be identical to the _MinimaxAgent_ minimax values,
 although the actions it selects can vary because of different tie-breaking behavior.
 
-### Question 5: Expectimax
+## Question 5: Expectimax
 Minimax and alpha-beta are great, but they both assume that you are playing against an adversary who makes optimal decisions.
 As anyone who has ever won tic-tac-toe can tell you, this is not always the case.
 In this question you will implement the _ExpectimaxAgent_, which is useful for modeling probabilistic behavior of agents who may make suboptimal choices.
@@ -76,7 +76,7 @@ In particular, if Pacman perceives that he could be trapped but might escape to 
 
 The correct implementation of expectimax will lead to Pacman losing some of the tests.
 
-### Question 5: Evaluation Function
+## Question 5: Evaluation Function
 Write a better evaluation function for pacman in the provided function _betterEvaluationFunction_.
 The evaluation function should evaluate states, rather than actions like your reflex agent evaluation function did.
 With depth 2 search, your evaluation function should clear the _smallClassic_ layout with one random ghost 
